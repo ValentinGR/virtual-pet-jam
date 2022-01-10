@@ -16,8 +16,6 @@ public abstract class LerpFunc : MonoBehaviour
         m_startPosition = startPosition;
         m_endPosition = endPosition;
 
-        Debug.Log("StartPos : " + m_startPosition + " et endPosition : " + m_endPosition);
-
         m_transformTarget = target;
     }
 
